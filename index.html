@@ -1,0 +1,256 @@
+<html>
+<head>
+  <title>html all chapter</title>
+  <style>
+    header{
+      color: white;
+      padding:28px;
+      text-align: center;
+      background-color:#333333;
+    }
+    a {
+      padding: 15px;
+      color: white;
+      font-size: 20px;
+      text-decoration: none;
+     
+    }
+    form{
+      background-color: #F9F9F9;
+      /* padding: 20px; */
+    }
+    fieldset{
+      padding: 20px;
+    }
+    input{
+      padding:8px;
+    }
+    
+    button{
+       width: 890px;
+       padding: 8px;
+       align-items: center;
+       background-color: #333333;
+       border: none;
+       color: #F9F9F9;
+       margin-bottom: 10px;
+    }
+
+    #ExtraM-div{
+      padding: 20px;
+      background-color: gray;
+    }
+    hr{
+      height: 1px;
+      background-color:black;
+    }
+  
+  </style>
+</head>
+
+<body style="margin: 0;padding: 0;">
+   
+  <header>
+    <h1 style="font-family: Arial, Helvetica, sans-serif;">Wellcome to Learn HTML Basics</h1>
+  <nav>
+    <a href="#Structure">structer</a>
+    <a href="#text"> text</a>
+    <a href="#List"> List</a>
+    <a href="#Link"> Link</a>
+    <a href="#Images"> Images</a>
+    <a href="#Table"> Tables</a>
+    <a href="#Form"> Forms</a>
+    <a href="#Extra"> Extra Markup</a>
+    <a href="#Media">Media</a>
+  </nav>
+  </header>
+  <main style="padding:40px;" id="Structure">
+
+
+    <h2 >Chapter 1: Structure</h2>
+    <hr />
+    <p>The structure of an HTML document includes the use of elements such as < html>,
+
+      < head>, and
+
+      < body>. These elements help <br /> to define
+        the layout and content of a web page.</p>
+    <br /><br /><br />
+     <span  id="text"></span>
+ <!-- ************************* Chapter 02 Text ***************************** -->
+    <h2>Chapter 2: Text</h2>
+    <hr />
+    <h3>Headings</h3>
+    <p>HTML offers six levels of headings, from <h 1> to < h6>. Each heading level represents a different level of
+          importance.
+    </p>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <hr />
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <h3>Paragraphs</h3>
+    <p>Paragraphs are defined with the < p> tag.</p>
+    <p>This is a sample paragraph demonstrating the paragraph tag.</p>
+    <br /><br /><br />
+    <span  id="List"></span>
+ <!-- ************************* Chapter 03 Lists ***************************** -->
+    <div>
+      <h2>Chapter 3: Lists</h2>
+      <hr />
+      <h3>Ordered List</h3>
+
+      <ol>
+        <li>First item
+          <ol>
+            <li>Sub item 1</li>
+            <li>Sub item 2</li>
+          </ol>
+        </li>
+        <li>Second item
+          <ol>
+            <li>Sub item 1</li>
+            <li>Sub item 2
+              <ol>
+                <li>Sub item 1</li>
+                <li>Sub item 2</li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+        <li>Third item</li>
+      </ol>
+
+      <h2>Unordered List</h2>
+
+      <ul>
+        <li>First item
+          <ul>
+            <li>Sub item 1</li>
+            <li>Sub item 2</li>
+          </ul>
+        </li>
+        <li>Second item
+          <ul>
+            <li>Sub item 1</li>
+            <li>Sub item 2
+              <ul>
+                <li>Sub item 1</li>
+                <li>Sub item 2</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>Third item</li>
+      </ul>
+
+      <h2>Definition List</h2>
+      <p>
+        <dt>HTML</dt>
+        <dd>A markup language for creating web pages.</dd>
+        <dt>CSS</dt>
+        <dd>A style sheet language used for describing the presentation of a document written in HTML.</dd>
+        <dt>JavaScript</dt>
+        <dd>A programming language commonly used in web development to create interactive effects within web browsers.
+        </dd>
+      </p>
+    </div>
+    <br /><br /><br />
+
+
+
+    <span  id="Link"></span>
+ <!-- ************************* Chapter 04  links ***************************** -->
+    <h2>Chapter 4: Links</h2>
+    <hr />
+    <p>Links are created using the <a> tag.</p>
+    <a href="">Visit Example</a>
+    <br /><br /><br /><br />
+
+
+
+    <span  id="Images"></span>
+ <!-- ************************* Chapter 05  Images ***************************** -->
+    <h2>Chapter 5: Images</h2>
+    <hr />
+    <p>Images are embedded using the <img> tag.</p>
+    <img src="./h..j.png" />
+    <br /><br /><br />
+
+
+    <span  id="Table"></span>
+ <!-- ************************* Chapter 06 tables ***************************** -->
+    <h2>Chapter 6: Tables</h2>
+    <hr />
+    <table border="1" width="910" height="100px" align="center" style=" border-collapse:collapse ;">
+      <tr>
+        <th align="left">Header 1</th>
+        <th align="left">Header 2</th>
+      </tr>
+      <tr>
+        <td>Header 1</td>
+        <td>Header 2</td>
+      </tr>
+    </table>
+    <br /><br /><br /><br />
+
+    <span  id="Form"></span>
+   <!-- ************************* Chapter 07 Form ***************************** -->
+
+    <h2>Chapter 7: Forms</h2>
+    <hr />
+    <form action="" method="post" >
+      <fieldset>
+        <label for="name">Name:</label><br />
+          <input type="text" id="name" name="userName" size="120" />
+          
+            <br /><br /><br /><br />
+            <label for="email">Email:</label><br />
+              <input type="email" id="email" name="email" size="120" />
+              
+                <br /><br /><br />
+                 <button>Submit</button>
+                <br />
+      </fieldset>
+    </form>
+
+    <br /><br /><br /><br />
+
+
+    <span  id="Extra"></span>
+<!-- ************************* Chapter 08 Extra Markup ***************************** -->
+    <h2>Chapter 8: Extra Markup</h2>
+    <hr />
+
+    <p>Additional elements include < div>, < span>, and more.</p>
+
+
+    <div id="ExtraM-div">This is a span inside a div.</div>
+    <br /><br /><br /><br />
+
+    <span  id="Media"></span>
+<!-- ************************* Chapter 09 Media ***************************** -->
+    <h2>Chapter 9: Media</h2>
+    <hr />
+    <h2>Video</h2>
+    <video height="240px"  controls="controls">
+      <source src="Document (2).mp4"></source>
+    </video>
+
+
+    <h2>Audio</h2>
+    <audio>
+      <source src=""></source>
+    </audio>
+
+  </main>
+  <footer style=" height:54px; background-color:#333333;padding:50px; text-align:center;color: white;">
+    <p>© 2024 powered by CodeNetic</p>
+  </footer>
+
+</body>
+
+</html>
